@@ -35,11 +35,10 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
-  read_only: false
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
